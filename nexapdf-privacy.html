@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — NexaPDF</title>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --cobalt: #1d4ed8;
+      --teal: #0f766e;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #e2e8f0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card: #1e293b;
+        --text: #f8fafc;
+        --muted: #cbd5e1;
+        --border: #334155;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans Arabic", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+    .hero {
+      background: linear-gradient(135deg, var(--primary), var(--cobalt), var(--teal));
+      color: #ffffff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+      letter-spacing: 0.3px;
+    }
+    .hero p {
+      margin: 0 auto 18px;
+      max-width: 680px;
+      opacity: 0.92;
+      font-size: 1rem;
+    }
+    .lang-nav {
+      display: inline-flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .lang-nav a {
+      color: #ffffff;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.18);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      padding: 8px 18px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.92rem;
+    }
+    .container {
+      max-width: 880px;
+      margin: 28px auto 48px;
+      padding: 0 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 6px 24px rgba(15, 23, 42, 0.05);
+    }
+    .rtl {
+      direction: rtl;
+      text-align: right;
+    }
+    h2 {
+      margin-top: 0;
+      color: var(--cobalt);
+      font-size: 1.45rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+    }
+    h3 {
+      margin-top: 22px;
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+    }
+    p, li {
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+    ul {
+      padding-inline-start: 22px;
+    }
+    a {
+      color: var(--cobalt);
+    }
+    .meta {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      padding-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>NexaPDF — Privacy Policy</h1>
+    <p>All-in-One Offline PDF Studio &bull; Package ID: <code>com.body.pdf</code></p>
+    <div class="lang-nav">
+      <a href="#english">English</a>
+      <a href="#arabic">العربية</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- English Section (Visible for Google Play Reviewers & Global Users) -->
+    <section id="english" class="card">
+      <h2>Privacy Policy (English)</h2>
+      <p class="meta"><strong>Effective Date:</strong> November 22, 2026 &bull; <strong>App Name:</strong> NexaPDF (<code>com.body.pdf</code>)</p>
+
+      <p>Your privacy is a top priority for <strong>NexaPDF</strong>. This Privacy Policy explains how NexaPDF handles files, device permissions, and third-party SDK services when you use our mobile application.</p>
+
+      <h3>1. Local &amp; Offline Document Processing</h3>
+      <p>All PDF viewing, editing, merging, splitting, compressing, rotating, scanning, optical character recognition (OCR), custom stamping, signing, and file conversions (Word, Excel CSV, HTML, TXT, Images) happen <strong>100% locally on your device</strong>. NexaPDF does <strong>not</strong> upload, transmit, or store your PDF documents or personal files on our servers.</p>
+
+      <h3>2. Data Stored Locally on Your Device</h3>
+      <ul>
+        <li><strong>App Preferences &amp; Bookmarks:</strong> Selected language, theme (Light/Dark), recent files list, saved page bookmarks, and your last custom stamp preference are saved locally on your device via Android <code>SharedPreferences</code>.</li>
+        <li><strong>Optional App Lock (Biometric / PIN):</strong> If you enable App Lock, biometric authentication is handled entirely by the Android system (<code>BiometricPrompt</code>), and any PIN is stored locally only as a salted SHA-256 hash. We never have access to your fingerprints, face data, or PIN.</li>
+      </ul>
+
+      <h3>3. Device Permissions</h3>
+      <ul>
+        <li><strong>Camera / Storage / File Picker:</strong> Used strictly when you choose to scan documents or open/save PDF, image, or document files.</li>
+        <li><strong>Internet &amp; Network State:</strong> Used only to load URLs in the Web-to-PDF tool, display ads in the free version, process Google Play subscriptions, and record anonymous usage analytics.</li>
+      </ul>
+
+      <h3>4. Third-Party Services &amp; SDKs</h3>
+      <p>NexaPDF uses the following trusted third-party services, each governed by its own privacy policy:</p>
+      <ul>
+        <li><strong>Google AdMob</strong> (Banner, Interstitial, and Rewarded Interstitial ads in the free tier; automatically disabled during Pro subscriptions or the 3-day free trial): <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+        <li><strong>Firebase Analytics</strong> (anonymous app diagnostics and usage events to improve app stability): <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Information</a></li>
+        <li><strong>Google Play Billing</strong> (secure processing of optional NexaPDF Pro subscriptions): <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&amp;ldt=privacynotice" target="_blank" rel="noopener">Google Payments Privacy Notice</a></li>
+        <li><strong>Google ML Kit &amp; Tesseract OCR</strong> (on-device text recognition; no document images are sent externally): <a href="https://developers.google.com/ml-kit/terms" target="_blank" rel="noopener">ML Kit Terms</a></li>
+      </ul>
+
+      <h3>5. Data Retention &amp; Deletion</h3>
+      <p>Because we do not collect or store your documents on any external server, you have full control over all local app data. You can erase all local preferences, bookmarks, and PIN data at any time from Android <em>Settings &gt; Apps &gt; NexaPDF &gt; Clear Data</em> or by uninstalling the app.</p>
+
+      <h3>6. Children's Privacy</h3>
+      <p>NexaPDF is not directed to children under the age of 13, and we do not knowingly collect personal information from children.</p>
+
+      <h3>7. Changes &amp; Contact</h3>
+      <p>We may update this Privacy Policy from time to time. If you have any questions, contact us at: <strong><a href="mailto:YOUR_EMAIL@gmail.com">YOUR_EMAIL@gmail.com</a></strong></p>
+    </section>
+
+    <!-- Arabic Section -->
+    <section id="arabic" class="card rtl" lang="ar">
+      <h2>سياسة الخصوصية (العربية)</h2>
+      <p class="meta"><strong>تاريخ السريان:</strong> 22 نوفمبر 2026 &bull; <strong>اسم التطبيق:</strong> NexaPDF (<code>com.body.pdf</code>)</p>
+
+      <p>تولي إدارة تطبيق <strong>NexaPDF</strong> خصوصيتك أهمية قصوى. توضح هذه الصفحة كيفية تعامل التطبيق مع ملفاتك وصلاحيات الجهاز والخدمات الخارجية المستخدمة.</p>
+
+      <h3>1. معالجة الملفات محلياً بدون إنترنت (أوفلاين)</h3>
+      <p>تتم جميع عمليات عرض وتعديل ودمج وتقسيم وضغط وتدوير ملفات PDF، والمسح الضوئي، وقراءة النصوص (OCR)، والأختام المخصصة، والتوقيع الإلكتروني، والتحويلات (Word وExcel CSV وHTML والصور) <strong>بالكامل على جهازك محلياً</strong>. لا يقوم التطبيق برفع أو إرسال ملفاتك إلى أي خوادم خارجية.</p>
+
+      <h3>2. البيانات المحفوظة على جهازك فقط</h3>
+      <ul>
+        <li><strong>تفضيلات التطبيق والعلامات المرجعية:</strong> تُحفظ اللغة المختارة، والمظهر (فاتح/داكن)، وقائمة الملفات الأخيرة، وصفحات البوك مارك، وآخر ختم مخصص داخل ذاكرة التطبيق المحلية فقط.</li>
+        <li><strong>قفل التطبيق الاختياري (البصمة / الوجه / PIN):</strong> تتم المصادقة البيومترية عبر نظام أندرويد مباشرة، ويُحفظ رمز PIN محلياً بصيغة مشفّرة (Salted SHA-256). لا نصل أبداً إلى بصمتك أو بيانات وجهك أو رمزك.</li>
+      </ul>
+
+      <h3>3. الصلاحيات المستخدمة</h3>
+      <ul>
+        <li><strong>الكاميرا والملفات:</strong> تُستخدم فقط عندما تختار مسح مستند ضوئياً أو فتح/حفظ ملفات من هاتفك.</li>
+        <li><strong>الإنترنت وحالة الشبكة:</strong> تُستخدم فقط لأداة تحويل مواقع الويب إلى PDF، وعرض الإعلانات في النسخة المجانية، وإدارة اشتراكات Google Play، وتحليلات الأداء المجهولة.</li>
+      </ul>
+
+      <h3>4. خدمات الطرف الثالث</h3>
+      <ul>
+        <li><strong>Google AdMob:</strong> لعرض الإعلانات في النسخة المجانية (وتتوقف الإعلانات تماماً عند الترقية إلى Pro أو خلال الفترة التجريبية): <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">سياسة خصوصية Google</a></li>
+        <li><strong>Firebase Analytics:</strong> لجمع إحصائيات استخدام مجهولة الهوية لتحسين استقرار التطبيق: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">خصوصية Firebase</a></li>
+        <li><strong>Google Play Billing:</strong> لإتمام الاشتراكات المدفوعة بأمان عبر متجر Google Play.</li>
+        <li><strong>Google ML Kit &amp; Tesseract OCR:</strong> للتعرف على النصوص محلياً داخل الجهاز دون إرسال الصور للخارج.</li>
+      </ul>
+
+      <h3>5. حذف البيانات</h3>
+      <p>يمكنك مسح كافة البيانات المحلية (العلامات المرجعية، الإعدادات، أو رمز القفل) في أي وقت عبر مسح بيانات التطبيق من إعدادات الهاتف أو إزالة تثبيت التطبيق.</p>
+
+      <h3>6. خصوصية الأطفال والتواصل</h3>
+      <p>التطبيق غير موجّه للأطفال دون سن 13 عاماً. لأي استفسارات تتعلق بالخصوصية تواصل معنا عبر البريد الإلكتروني: <strong><a href="mailto:YOUR_EMAIL@gmail.com">YOUR_EMAIL@gmail.com</a></strong></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 NexaPDF. All rights reserved.
+  </footer>
+</body>
+</html>
